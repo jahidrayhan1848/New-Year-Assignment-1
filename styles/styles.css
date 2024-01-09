@@ -152,8 +152,9 @@ header {
     font-size: 20px;
 }
 
+
 .best-img {
-    background: red;
+    border: 20px solid red;
     border-radius: 50%;
     padding: 20px;
 
@@ -168,3 +169,19 @@ header {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
 }
+/* gift section 
+ */
+ .gift{
+    width: 80%;
+    margin: 30px auto;
+
+ }
+ .rect{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+ }.rect img {
+    width: 324px;
+    height: 350px;
+    border-radius: 16px;
+ }

@@ -9,6 +9,10 @@
 
 }
 
+body {
+    background: #FFF;
+}
+
 /* header section  */
 
 header {
@@ -102,6 +106,13 @@ header {
     width: 80%;
     margin: 10px auto;
 
+}
+
+.now {
+    padding: 5px;
+    color: #FFF;
+    font-size: 20px;
+    text-transform: uppercase
 }
 
 .mid {
@@ -256,6 +267,8 @@ header {
 .letter {
     width: 80%;
     margin: 100px auto;
+    background: rgba(223, 6, 6, 0.1);
+    padding: 60px;
 
 }
 
@@ -280,6 +293,8 @@ header {
     width: 548px;
     height: 32px;
     padding: 5px;
+    outline: none;
+    border: none;
 
 }
 
@@ -292,11 +307,14 @@ header {
     padding: 10px 28px;
 }
 
+.sub {
+    margin-right: 0px;
+}
+
 /* footer section 
   */
 .footer {
-    width: 80%;
-    margin: 120px auto;
+    
     background: #070211;
 
 

@@ -121,6 +121,49 @@ header {
     margin-top: 5px;
 }
 
+/* hotel section  */
+.hotel {
+    width: 75%;
+    margin: 10px auto;
+    text-align: center;
+    background: rgba(223, 6, 6, 0.1);
+    padding: 55px;
+    margin-bottom: 45px;
+
+
+}
+
+.hotel p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.hotel span {
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.hotel button {
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    padding: 12px;
+    color: #FFF;
+}
+
 /* offer section  */
 .offers {
     width: 80%;
@@ -189,7 +232,8 @@ header {
     height: 350px;
     border-radius: 16px;
 }
-.rect img:hover{
+
+.rect img:hover {
     transform: scale(1.2);
 }
 
@@ -236,7 +280,7 @@ header {
     width: 548px;
     height: 32px;
     padding: 5px;
-   
+
 }
 
 .letter-box button {
@@ -247,47 +291,55 @@ header {
     font-size: 20px;
     padding: 10px 28px;
 }
- /* footer section 
+
+/* footer section 
   */
-  .footer{
+.footer {
     width: 80%;
     margin: 120px auto;
     background: #070211;
 
 
-  }
-  .foot {
+}
+
+.foot {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 100px;
-  }
-  .big{
+}
+
+.big {
     color: #FFF;
     font-size: 14px;
-  }
-  .phone p{
+}
+
+.phone p {
     color: #FFF;
-  }
-  .hr{
+}
+
+.hr {
     margin-top: 50px;
     width: 80%;
     margin: 0 auto;
-  }
-  .hr1{
+}
+
+.hr1 {
     margin-top: 50px;
     width: 80%;
     margin: 0 auto;
-  }
-  .fb{
+}
+
+.fb {
     margin-top: 30px;
     text-align: center;
     margin-bottom: 100px;
-  }
-  .rights{
+}
+
+.rights {
     display: flex;
     color: #FFF;
     justify-content: space-around;
     padding: 100px;
 
-  }
+}

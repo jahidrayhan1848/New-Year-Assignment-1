@@ -109,13 +109,62 @@ header {
     align-items: center;
 }
 
-.party  {
+.party {
     color: #FFF;
     font-size: 15px;
-    padding: 124px;  
+    padding: 124px;
 }
-.party p{
+
+.party p {
     color: rgba(255, 255, 255, 0.80);
-font-size: 12px;
-margin-top: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* offer section  */
+.offers {
+    width: 80%;
+    margin: 10px auto;
+
+
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.best h6 {
+    color: #F00;
+
+    font-size: 24px;
+}
+
+.best h3 {
+    color: #070211;
+    font-size: 48px;
+}
+
+.best p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+}
+
+.best-img {
+    background: red;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+.news h2 {
+    color: #F00;
+    font-size: 48px;
+}
+
+.news p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
 }

@@ -244,3 +244,32 @@ header {
     font-size: 20px;
     padding: 10px 28px;
 }
+ /* footer section 
+  */
+  .footer{
+    width: 80%;
+    margin: 120px auto;
+    background: #070211;
+
+
+  }
+  .foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+  }
+  .big{
+    color: #FFF;
+    font-size: 14px;
+  }
+  .phone p{
+    color: #FFF;
+  }
+  .hr{
+    margin-top: 50px;
+  }
+  .fb{
+    margin-top: 30px;
+    text-align: center;
+  }

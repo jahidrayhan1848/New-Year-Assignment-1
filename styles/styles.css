@@ -181,13 +181,16 @@ header {
 .rect {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .rect img {
     width: 324px;
     height: 350px;
     border-radius: 16px;
+}
+.rect img:hover{
+    transform: scale(1.2);
 }
 
 .the {

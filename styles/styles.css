@@ -169,19 +169,78 @@ header {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
 }
+
 /* gift section 
  */
- .gift{
+.gift {
     width: 80%;
     margin: 30px auto;
 
- }
- .rect{
+}
+
+.rect {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
- }.rect img {
+}
+
+.rect img {
     width: 324px;
     height: 350px;
     border-radius: 16px;
- }
+}
+
+.the {
+    color: #F00;
+    font-size: 24px;
+}
+
+.gift h1 {
+    color: #070211;
+    font-size: 48px;
+}
+
+.cups {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+}
+
+/* letter section  */
+.letter {
+    width: 80%;
+    margin: 100px auto;
+
+}
+
+.letter-box {
+    text-align: center;
+}
+
+.letter-box h1 {
+    color: #070211;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+.letter-box p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.letter-box input {
+    margin-top: 40px;
+    width: 548px;
+    height: 32px;
+    padding: 5px;
+   
+}
+
+.letter-box button {
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    padding: 10px 28px;
+}

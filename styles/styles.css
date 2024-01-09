@@ -84,9 +84,38 @@ header {
     font-weight: 700;
 
 }
+
 .deals img {
     width: 700px;
-height: 500px;
-margin-top: 10px;
+    height: 500px;
+    margin-top: 10px;
 
+}
+
+/* midnight section  */
+.midnight {
+    background: url("../images/Vectorrr.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+}
+
+.party  {
+    color: #FFF;
+    font-size: 15px;
+    padding: 124px;  
+}
+.party p{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 12px;
+margin-top: 5px;
 }
